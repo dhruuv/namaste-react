@@ -1,0 +1,19 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhruuv/namaste-react.git"
+  },
+  "author": "Dhruv Narang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhruuv/namaste-react/issues"
+  },
+  "homepage": "https://github.com/dhruuv/namaste-react#readme",
+  "description": ""
+}
