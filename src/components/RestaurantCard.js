@@ -10,7 +10,6 @@ const RestaurantCard = (props) => {
     cuisines = [],
     avgRating = "N/A",
     costForTwo = 0,
-    deliveryTime = "N/A",
   } = resData?.info || {};
 
   return (
@@ -35,14 +34,6 @@ const RestaurantCard = (props) => {
       </h4>
       <h4>
         {avgRating !== "N/A" ? `${avgRating} stars` : "Rating not available"}
-      </h4>
-      <h4>
-        {costForTwo > 0 ? `₹${costForTwo / 100} FOR TWO` : "Cost not available"}
-      </h4>
-      <h4>
-        {deliveryTime !== "N/A"
-          ? `${deliveryTime} minutes`
-          : "Delivery time not available"}
       </h4>
     </div>
   );
